@@ -18,11 +18,16 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="interview_score3" placeholder="Maximum Wind Speed" required="required" /><br>
-    	<input type="text" name="experience" placeholder="Maximum Temperature" required="required" /><br>
-        <input type="text" name="test_score" placeholder="Minimum Temperature" required="required" /><br>
-        <input type="text" name="interview_score5" placeholder="Average Temperature" required="required" /><br>
-        <input type="text" name="interview_score6" placeholder="Average Wind Speed" required="required" /><br>
+      <input type="text" name="radius_mean" placeholder="Radius Mean" required="required" /><br>
+    	<input type="text" name="texture_mean" placeholder="Texture Mean" required="required" /><br>
+        <input type="text" name="perimeter_mean" placeholder="Perimeter Mean" required="required" /><br>
+        <input type="text" name="area_mean" placeholder="Area Mean" required="required" /><br>
+        <input type="text" name="smoothness_mean" placeholder="Smoothness Mean" required="required" /><br>
+	<input type="text" name="compactness_mean" placeholder="Compactness Mean" required="required" /><br>
+    	<input type="text" name="concavity_mean" placeholder="Concavity Mean" required="required" /><br>
+        <input type="text" name="concave_points_mean" placeholder="Concave points Mean" required="required" /><br>
+        <input type="text" name="symmetry_mean" placeholder="Symmetry Mean" required="required" /><br>
+        <input type="text" name="fractal_dimension_mean" placeholder="Fractal Dimension Mean" required="required" /><br>
 
        
 
